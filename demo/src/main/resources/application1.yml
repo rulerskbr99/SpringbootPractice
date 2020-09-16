@@ -1,0 +1,13 @@
+server:
+  port: 9000  servlet:    context-path: /test
+type: Framework
+name: SpringBoot ${type}
+
+
+my:
+  messageValue: ${random.value} ${name}
+ 
+ 
+spring:  profiles:    active:prod    - 
+ 
+ 
